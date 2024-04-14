@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css2?family=Figtree&display=swap);
+body{
+    min-height: 100vh;
+    background: #000;
+}
+.wrap{
+    width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.wrapper{
+    margin-top: 40px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-link{
+    font-size: 42px;
+    font-weight: 900;
+    color: aliceblue;
+}
+.list{
+display: flex;
+gap: 24px;
+}
+.item{
+    font-weight: 600;
+    font-size: 18px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Figtree;
+}
+.footer-wrapper {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    background-color: rgba(22, 27, 22, 0.067);
+}
+.created {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.created-info {
+    color: aliceblue;
+    font-size: 18px;
+    
+}
+.created-list {
+    display: flex;
+    gap: 15px;
+}
+.line{
+    width: 800px;
+    height: 1px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+}
+.social-m {
+}

@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css2?family=Figtree&display=swap);
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*font-family: ;*/
+    font-family: Figtree;
 }
 
 body{
@@ -10,6 +12,29 @@ body{
     place-content: center;
     min-height: 100vh;
     background: #000;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.wrapper{
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-link{
+    font-size: 42px;
+    font-weight: 900;
+    color: aliceblue;
+}
+.list{
+display: flex;
+gap: 24px;
+}
+.item{
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .container{
