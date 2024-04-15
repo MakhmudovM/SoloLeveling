@@ -112,3 +112,26 @@ gap: 24px;
     opacity: 1;
     transition-delay: 400ms;
 }
+
+.hero {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    text-align: center  ;
+}
+.hero-img {
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.hero-title {
+    color: #fff;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 28px;
+}
+.hero-text {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    width: 800px;
+    letter-spacing: 0.8px;
+}
